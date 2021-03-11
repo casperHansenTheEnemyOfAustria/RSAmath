@@ -11,6 +11,7 @@ m = (p-1)*(q-1)
 
 
 
+
 def find_d(m,e)
     i = 1
     
