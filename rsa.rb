@@ -1,3 +1,16 @@
+
+
+puts "give me your first prime"
+p = gets.chomp.to_i
+
+puts "give me your second prime"
+q = gets.chomp.to_i
+
+n = p*q
+m = (p-1)*(q-1)
+
+
+
 def find_d(m,e)
     i = 1
     
@@ -10,5 +23,3 @@ def find_d(m,e)
     p d
     return d
 end
-
-find_d(216.0, 5.0)
