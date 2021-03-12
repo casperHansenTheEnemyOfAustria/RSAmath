@@ -45,7 +45,7 @@ p "no its integer time"
 p "n is #{n}"
 p "e is #{e}"
 # p "m is #{m}"
-p "d is #{d}"
+# p "d is #{d}"
 
 
 # client side
@@ -63,4 +63,4 @@ end
     # p "#{message}^#{d} is #{message**d}"
 
     actual_message = (message**d).modulo(n)
-    p "the message was" + " #{actual_message}"
+    p "the message was" + " #{actual_message} but dont show this to the hacker man or he will steal all ur furry porn"
