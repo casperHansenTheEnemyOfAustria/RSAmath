@@ -7,4 +7,4 @@ message = gets.chomp.to_i
 
 message = message.pow(e,n)
 
-p"your message for the bank is 
+p"your message for the bank is #{message}"
