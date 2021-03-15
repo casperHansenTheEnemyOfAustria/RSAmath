@@ -73,9 +73,6 @@ end
 p = many_numbers[i]
 q = n/many_numbers[i]
 
-# p message
-# p calc_the_rest(p,q,e)
-
 message = message.pow(calc_the_rest(p,q,e), n)
 
 p "message is #{message}"
