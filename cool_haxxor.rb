@@ -8,8 +8,8 @@ n = gets.chomp.to_i
 p "giv urs msg"
 message = gets.chomp.to_i
 
-many_numbers = Prime.first 2**20
-
+many_numbers = Prime.first 2**21
+p many_numbers
 
 
 def find_d(m,e)
