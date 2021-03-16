@@ -8,7 +8,7 @@ n = gets.chomp.to_i
 p "giv urs msg"
 message = gets.chomp.to_i
 
-many_numbers = Prime.first 2**22
+many_numbers = Prime.first 2**20
 
 
 

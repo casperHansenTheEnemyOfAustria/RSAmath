@@ -14,11 +14,10 @@ def find_d(m,e)
     return d
 end
 
-# p = many_numbers[rand(0..(many_numbers.length - 1))]
-# q =  many_numbers[rand(0..(many_numbers.length - 1))]
+many_numbers = [1038227,1016143, 1071683, 1124087, 1162493, 1229483, 1279871 ]
 
-p = 2147483647	
-q = 1016143
+p = many_numbers[rand(0..(many_numbers.length - 1))]
+q =  many_numbers[rand(0..(many_numbers.length - 1))]
 
 
 # does nessicairy operations
